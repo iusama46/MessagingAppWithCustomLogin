@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "58765644976",
+    "firebase_url": "https://donate-blood-28f2a.firebaseio.com",
+    "project_id": "donate-blood-28f2a",
+    "storage_bucket": "donate-blood-28f2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58765644976:android:90ccfc07fb36d8f36dd775",
+        "android_client_info": {
+          "package_name": "co.usam.donateblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58765644976-fbrcjvrod36pf52ppsaaru7rasmtmuoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOXV_MugfQhBTeHPu3r3axA2cmDCzHTeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58765644976-fbrcjvrod36pf52ppsaaru7rasmtmuoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.usam.donateblood">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chatApp.MainActivity"></activity>
+        <activity android:name=".chatApp.ChatActivity" android:theme="@style/AppTheme_no_actionbar" />
+        <activity android:name=".activities.BloodBankHomeActivity" />
+        <activity android:name=".activities.BloodBankActivity" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity
+            android:name=".activities.DataVerificationActivity"
+            android:theme="@style/AppTheme_no_actionbar" />
+        <activity
+            android:name=".activities.OtpActivity"
+            android:theme="@style/AppTheme_no_actionbar" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/AppTheme_splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/AppTheme_no_actionbar" />
+    </application>
+
+</manifest>
